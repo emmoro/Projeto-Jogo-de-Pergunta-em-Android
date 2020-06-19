@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bac"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/com_facebook_blue"
+    tools:context=".LoginFacebook">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="24dp"
+            android:shadowColor="@color/common_google_signin_btn_text_dark_focused"
+            android:text="Jogo das Perguntas"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutHeader"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="127dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/login_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/img_question_foreground" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="0dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="220dp"
+            android:background="?android:attr/statusBarColor"
+            android:backgroundTint="?android:attr/statusBarColor"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/layoutRodape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:background="?android:attr/statusBarColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutRodape"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:background="?android:attr/statusBarColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

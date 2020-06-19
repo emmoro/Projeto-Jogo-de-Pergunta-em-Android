@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Jogo</string>
+    <string name="facebook_app_id">FACEBOOK_KEY</string>
+    <string name="fb_login_protocol_scheme">FACEBOOK_KEY_f</string>
+</resources>

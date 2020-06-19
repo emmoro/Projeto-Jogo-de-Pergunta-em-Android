@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.elton.jogo">
+
+    <item android:id="@+id/reiniciar"
+        android:title="Jogar" />
+
+    <item android:id="@+id/ranking"
+        android:title="Ranking" />
+
+    <item android:id="@+id/sair"
+        android:title="Sair" />
+
+</menu>
