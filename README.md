@@ -13,4 +13,6 @@ IDE utilizada foi o Android Studio
 ## Nota
 * Fazer um cadastro no 'http://console.firebase.google.com/', para poder ter acesso aos recursos do Firebase e Autenticação do Facebook
 * Site para auxílio do cadastro do Firebase: 'https://firebase.google.com/docs/android/setup?hl=pt-br' e '
-* Site para auxílio para Autenticação via Facebook: https://firebase.google.com/docs/auth/android/facebook-login?hl=pt-br'  
+* Site para auxílio para Autenticação via Facebook: https://firebase.google.com/docs/auth/android/facebook-login?hl=pt-br'
+
+* Aplicativo disponivel na Google play: https://play.google.com/store/apps/details?id=br.com.elton.jogodeperguntas
